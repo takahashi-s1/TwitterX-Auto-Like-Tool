@@ -1,4 +1,4 @@
-# SNS-IINE-tool
+# Twitter Auto IINE Tool
 
 #　参照
 subprocess
