@@ -168,6 +168,7 @@ class TwitterGui:
 
       # 任意の回数だけ画面をスクロールさせ自動いいねをする
       for num in range(0, self.scroll_num):
+        # mode == 0、画像認識を用いていいね
         if self.mode == 0:
           # 画面をスクロール
           pag.press('pagedown')
@@ -179,7 +180,8 @@ class TwitterGui:
               x, y = pag.center(p)
               pag.click(x, y)
               time.sleep(20)
-              
+            
+        # キーボードを用いていいね      
         elif self.mode == 1:
           # 次のポストをフォーカス  
           pag.press(self.next_post_keyboard_com) 
