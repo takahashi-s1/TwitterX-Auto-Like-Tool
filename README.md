@@ -40,9 +40,9 @@ Xサーバーの過負荷にならないよう常識の範囲内でXのアカウ
 
 ## 使い方
 - セキュリティ管理の為、accounts.jsonにアカウント名、パスワードを保存する
-<img width="242" alt="スクリーンショット 2024-03-27 154218" src="https://github.com/takahashi-s1/TwitterX-Auto-IINE-Tool/assets/149812365/a784a567-df96-4c04-ad47-2ad8b2d71a37">
-
-  - この際、アカウントが複数ある場合は、pythonスクリプト-main関数(198)-＃アカウント選択-`account = data['accounts'][0]` にて、実行したいアカウントがjsonファイルの何番目にあるか記入する（例：jsonファイルの2番目にあれば、`account = data['accounts'][1]`）
+<img width="242" alt="スクリーンショット 2024-03-27 154218" src="https://github.com/takahashi-s1/TwitterX-Auto-IINE-Tool/assets/149812365/a784a567-df96-4c04-ad47-2ad8b2d71a37">  
+  
+   この際、アカウントが複数ある場合は、pythonスクリプト-main関数(198)-＃アカウント選択-`account = data['accounts'][0]` にて、実行したいアカウントがjsonファイルの何番目にあるか記入する（例：jsonファイルの2番目にあれば、`account = data['accounts'][1]`）
 <img width="629" alt="スクリーンショット 2024-03-27 145949" src="https://github.com/takahashi-s1/TwitterX-Auto-IINE-Tool/assets/149812365/5c7637b7-dedd-41f2-8c01-dba9ea2b25e2">  
 
 
@@ -54,8 +54,8 @@ Xサーバーの過負荷にならないよう常識の範囲内でXのアカウ
 ## 留意事項
 - 実行環境：windows11 corei5 16GB での動作を確認しています。
 - 現在Xでは自動化ルールを設けており過度な自動化を規制しています。(https://help.twitter.com/ja/rules-and-policies/x-automation)  
-  また、アクション上限が設けられており、15分につき50回、1日に1000回いいねをすると凍結されると言われています。（各自で調べてご判断ください）そのため、当スクリプトのいいね最大数は190回になっています。
-- Xサーバーに過負荷を掛けるような過度ないいねの自動化を実施した場合、アカウント凍結やBANされる危険性があります。利用する際は全て自己責任でご判断ください。
+  また、アクション上限が設けられており、15分につき50回、1日に1000回いいねをすると凍結されると言われています。（各自でご判断ください）
+- Xサーバーに過負荷を掛けるような過度ないいねの自動化を実施した場合、アカウント凍結やBANされる危険性があります。利用する際は自己責任でご判断ください。
 
 ## 参照  
 - subprocess  
