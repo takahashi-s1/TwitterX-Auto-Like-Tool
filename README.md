@@ -56,6 +56,8 @@ Xサーバーの過負荷にならないよう常識の範囲内でXのアカウ
 - Xサーバーに過負荷を掛けるような過度ないいねの自動化を実施した場合、アカウント凍結やBANされる危険性があります。利用する際は自己責任でご判断ください。
 
 ## 参照  
+- 退屈なことはpythonにやらせよう web版  
+https://automatetheboringstuff.com/
 - subprocess  
 https://jp-seemore.com/iot/python/10727/#toc2  
 https://office54.net/python/python-subprocess-popen  
