@@ -45,7 +45,7 @@ Xサーバーの過負荷にならないよう常識の範囲内でXのアカウ
   
  <img width="636" alt="スクリーンショット 2024-03-27 160542" src="https://github.com/takahashi-s1/TwitterX-Auto-IINE-Tool/assets/149812365/cb6e8e1e-b93e-46f9-b0c0-239e6504d9e8">  
 
-[引用：X API 料金表](https://developer.twitter.com/en/products/twitter-api)  
+[引用：X API](https://developer.twitter.com/en/products/twitter-api)  
  
  　3つ目は、Twitter APIの有料化によって、これまでの自動いいねツールが全て利用不可になってしまったからです。
 　twitterが買収されて以降、長らく無料だったtwitter APIが有料化されました。basicプランで100ドル、proプランで5000ドルという料金に躊躇し、現在のアカウント運用に不便を感じている方々が多くいると考えました。このようなニーズを満たし、ビジネスでSNSを活用する方々に向けて、ルールや常識の範囲内でより業務を効率化する「いいね自動スクリプト」制作を決意しました。
