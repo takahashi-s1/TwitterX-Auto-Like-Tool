@@ -37,7 +37,7 @@ Xサーバーの過負荷にならないようルールの範囲内でXのアカ
 [自動いいね](https://github.com/takahashi-s1/TwitterX-Auto-IINE-Tool/assets/149812365/b546d2c0-d35b-4dc0-9538-da1ec69df965)
 
 ## 使い方
-- セキュリティ管理の為、jsonファイルにアカウント名、パスワードを保存する
+- セキュリティ管理の為、accounts.jsonにアカウント名、パスワードを保存する
 <img width="242" alt="スクリーンショット 2024-03-27 154218" src="https://github.com/takahashi-s1/TwitterX-Auto-IINE-Tool/assets/149812365/a784a567-df96-4c04-ad47-2ad8b2d71a37">
 
   - この際、アカウントが複数ある場合は、pythonスクリプト-main関数(198)-＃アカウント選択-`account = data['accounts'][0]` にて、実行したいアカウントがjsonファイルの何番目にあるか記入する（例：jsonファイルの2番目にあれば、`account = data['accounts'][1]`）
