@@ -10,7 +10,7 @@ import urllib.parse
 import json
 
 class TwitterGui:
-  #　共通定数
+  # 共通定数
   wait_time = 3
   chrome_path = r'chrome.exe'
   
@@ -19,7 +19,7 @@ class TwitterGui:
   twitter_url = 'https://twitter.com/'
   is_login_check_text = '"screen_name":"'
   
-  #いいね変数
+  # いいね変数
   twitter_search_url = 'https://twitter.com/search?q='
   twitter_like_button = 'twitter_auto_like/data/like_button.jpg'
   
@@ -30,7 +30,7 @@ class TwitterGui:
   next_post_keyboard_com = 'j'
   do_like_keyboard_com = 'l'
   
-  #コンストラクタ
+  # コンストラクタ
   def __init__(self, wait_time, twitter_username, twitter_password):
     self.wait_time = wait_time
     self.twitter_username = twitter_username
@@ -86,7 +86,7 @@ class TwitterGui:
         pag.press("enter")
         time.sleep(self.wait_time)
           
-        ## アカウント名の入力欄に移動
+        ## アカウント入力欄に移動
         for i in range(0,3):
             pag.hotkey("tab")
             time.sleep(self.wait_time)
@@ -139,7 +139,7 @@ class TwitterGui:
     
     if return_code == 0:
       try:
-          # アドレスバーにフォーカスしツイートを検索
+          # アドレスバーでツイートを検索
         pag.hotkey('ctrl', "l")
         time.sleep(self.wait_time)
 
@@ -178,7 +178,7 @@ class TwitterGui:
       elif self.mode == 1:
         try:
           for _ in range(self.loop_count):
-            # 次のポストをフォーカス  
+            # 次のポストへ
             pag.press(self.next_post_keyboard_com) 
             time.sleep(self.wait_time)                  
             # いいね
@@ -193,7 +193,7 @@ class TwitterGui:
 
 if __name__ == "__main__":
   
-  #jsonファイルからアカウント情報を取得
+  # jsonファイルからアカウント情報を取得
   accounts_json_path = 'twitter_auto_like/data/accounts.json' 
 
   with open(accounts_json_path) as f:
