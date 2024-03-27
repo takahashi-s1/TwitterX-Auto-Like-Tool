@@ -40,13 +40,11 @@ Xサーバーの過負荷にならないよう常識の範囲内でXのアカウ
 
 ## 使い方
 - セキュリティ管理の為、accounts.jsonにアカウント名、パスワードを保存する
-<img width="242" alt="スクリーンショット 2024-03-27 154218" src="https://github.com/takahashi-s1/TwitterX-Auto-IINE-Tool/assets/149812365/a784a567-df96-4c04-ad47-2ad8b2d71a37">  
-  
-   この際、アカウントが複数ある場合は、pythonスクリプト-main関数(198)-＃アカウント選択-`account = data['accounts'][0]` にて、実行したいアカウントがjsonファイルの何番目にあるか記入する（例：jsonファイルの2番目にあれば、`account = data['accounts'][1]`）
+  - この際、アカウントが複数ある場合は、main関数内の、＃アカウント選択-`account = data['accounts'][0]` にて、実行したいアカウントがjsonファイルの何番目にあるか記入する（例：jsonファイルの2番目にあれば、`account = data['accounts'][1]`）
 <img width="629" alt="スクリーンショット 2024-03-27 145949" src="https://github.com/takahashi-s1/TwitterX-Auto-IINE-Tool/assets/149812365/5c7637b7-dedd-41f2-8c01-dba9ea2b25e2">  
 
 
-- pythonスクリプト-main関数(198)-＃いいねしたいツイートの検索式- `search_text = ''`に検索したいキーワードを入力する（初期値は'プログラミング学習'）
+- main関数内の、＃いいねしたいツイートの検索式- `search_text = ''`に検索したいキーワードを入力する（初期値は'プログラミング学習'）
 <img width="358" alt="スクリーンショット 2024-03-27 145953" src="https://github.com/takahashi-s1/TwitterX-Auto-IINE-Tool/assets/149812365/55c159f2-4233-4de6-9952-57c49e87c5cf">  
     
 - スクリプトを実行する
