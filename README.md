@@ -91,3 +91,8 @@ https://and-engineer.com/articles/YUrUYBAAACUA2zGd
 https://pyautogui.readthedocs.io/en/latest/keyboard.html#the-hotkey-function
 - 例外処理  
   https://zenn.dev/tigrebiz/articles/python-try-exception
+- pyautogui  
+  http://kakedashi-xx.com:25214/index.php/2022/10/14/post-6886/  
+  https://qiita.com/curry__30/items/95789faeb8715856ae9e  
+  https://sasuwo.org/auto_good_for_twitter/  
+
