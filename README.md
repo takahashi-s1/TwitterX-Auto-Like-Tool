@@ -1,10 +1,10 @@
 # X(Twitter) Auto IINE Tool
 ## 概要
-任意の検索キーワードを含むツイートに対して自動で「いいね」を送信するpythonスクリプトです。  
+X上で、任意の検索キーワードを含むツイートに対して自動で「いいね」を送信するpythonスクリプトです。  
 スクリプト実行後、自動でログインし、画像認識を用いた方法か、キーボードを用いた方法のどちらかで自動でいいねをしていきます。  
-Xサーバーの過負荷にならないよう常識の範囲内でXのアカウント運用を効率化します。  
-(いいね例.gif)  
-![Videotogif](https://github.com/takahashi-s1/TwitterX-Auto-IINE-Tool/assets/149812365/deee3e28-d243-4d6e-bf70-f8f0f2813678)  
+Xサーバーの過負荷にならない範囲内でいいねを行います。 
+
+https://github.com/takahashi-s1/TwitterX-Auto-IINE-Tool/assets/149812365/542a14f5-42d4-47c1-aef8-4230a86097bc
 
 ## 制作の背景
 - 近年隆盛を極めるインターネットビジネスで必要とされるツールを開発したいと思ったため
